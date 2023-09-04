@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bg-gradient-default {
+  @apply bg-gradient-to-bl from-sky-400 from-20% via-emerald-300 via-60%  to-indigo-100 to-90%;
+}
+
+.btn-outline {
+  @apply bg-transparent text-black font-semibold  border-black hover:bg-white hover:text-black hover:border-transparent;
+}
+
+.btn-solid {
+  @apply bg-sky-500 text-white font-semibold border-sky-400;
+}
